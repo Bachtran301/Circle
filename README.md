@@ -28,7 +28,8 @@ http://user:pass@ip:port
 
 In the data.txt file, you need to have the following format:
 
-query_id=xxx or user=xxxx
+1: authorization
+2: token|user_id
 
 ![circle](https://github.com/user-attachments/assets/d3a7aa87-7fef-4589-b38e-816c4d6ba2c3)
 
