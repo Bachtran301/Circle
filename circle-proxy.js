@@ -4,18 +4,7 @@ const axios = require('axios');
 const colors = require('colors');
 const { DateTime } = require('luxon');
 const { HttpsProxyAgent } = require('https-proxy-agent');
-
-console.clear();
-console.log(`
-██████╗ ██╗   ██╗████████╗██╗ ██████╗ ██████╗  ██████╗ ██╗      
-██╔══██╗██║   ██║╚══██╔══╝██║██╔════╝██╔═══██╗██╔═══██╗██║      
-██████╔╝██║   ██║   ██║   ██║██║     ██║   ██║██║   ██║██║      
-██╔═══╝ ██║   ██║   ██║   ██║██║     ██║   ██║██║   ██║██║      
-██║     ╚██████╔╝   ██║   ██║╚██████╗╚██████╔╝╚██████╔╝███████╗ 
-╚═╝      ╚═════╝    ╚═╝   ╚═╝ ╚═════╝ ╚═════╝  ╚═════╝ ╚══════╝ 
-        `.cyan);
-console.log('[+] Welcome & Enjoy Sir !'.green);
-console.log('[+] Error? PM Telegram [https://t.me/NothingYub]'.red);
+const printLogo = require('./src/logo');
 
 class TonCircle {
     constructor() {
@@ -309,6 +298,7 @@ class TonCircle {
     }
 
     async main() {
+        printLogo();
         while (true) {
             const dataFile = path.join(__dirname, 'data.txt');
             const data = fs.readFileSync(dataFile, 'utf8')
