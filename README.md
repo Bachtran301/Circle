@@ -1,4 +1,5 @@
-![circle](https://github.com/user-attachments/assets/b1865fd9-f527-4846-a754-29411777ccb3)
+
+![12](https://github.com/user-attachments/assets/8179dbee-5ffc-4a87-9899-cf42f33176a7)
 
 ✔️ Auto task (Some tasks need to be done manually)
 
